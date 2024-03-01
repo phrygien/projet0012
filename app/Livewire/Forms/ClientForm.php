@@ -11,6 +11,7 @@ class ClientForm extends Form
 {
     public ?Client $client;
 
+    public $id;
     #[Rule('required|string')]
     public $nom;
 
