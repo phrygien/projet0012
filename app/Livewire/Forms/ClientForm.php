@@ -36,6 +36,7 @@ class ClientForm extends Form
             'num_client' => $num_client,
             'nom' => $this->nom,
         ]);
+        $this->reset();
     }
 
     public function update()
