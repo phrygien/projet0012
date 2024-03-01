@@ -19,6 +19,8 @@ class ClientCreate extends Component
         is_null($client)
         ? $this->dispatch('notify', title: 'success', message: 'Client bien enregistre!')
         : $this->dispatch('notify', title: 'echec', message: 'Client non enregistre!');
+
+        $this->dispatch('dispatch-client-create-save')->to(ClientTable::class);
     }
 
     public function render()
