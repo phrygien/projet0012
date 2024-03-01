@@ -15,11 +15,11 @@
                 <th @click="$wire.sortField('id')" class="p-2 whitespace-nowrap border border-spacing-1 cursor-pointer">
                     <x-sort :$sortDirection :$sortBy :field="'id'" /> ID
                 </th>
-                <th @click="$wire.sortField('name')" class="p-2 whitespace-nowrap border border-spacing-1 cursor-pointer">
-                    <x-sort :$sortDirection :$sortBy :field="'name'" /> Numero client
+                <th @click="$wire.sortField('num_client')" class="p-2 whitespace-nowrap border border-spacing-1 cursor-pointer">
+                    <x-sort :$sortDirection :$sortBy :field="'num_client'" /> Numero client
                 </th>
-                <th @click="$wire.sortField('email')" class="p-2 whitespace-nowrap border border-spacing-1 cursor-pointer">
-                    <x-sort :$sortDirection :$sortBy :field="'email'" /> Nom client
+                <th @click="$wire.sortField('nom')" class="p-2 whitespace-nowrap border border-spacing-1 cursor-pointer">
+                    <x-sort :$sortDirection :$sortBy :field="'nom'" /> Nom client
                 </th>
             </tr>
             <tr>
