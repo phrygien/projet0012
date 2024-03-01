@@ -86,7 +86,7 @@
                     <tbody>
                         @foreach ($clients as $client )
                             <tr class="border-b dark:border-gray-700">
-                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $client->num_client }}&#34;</th>
+                                <th scope="row" class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap dark:text-white">{{ $client->num_client }}</th>
                                 <td class="px-4 py-3">{{ $client->nom }}</td>
                                 <td class="px-4 py-3">{{ $client->created_at }}</td>
                                 <td class="px-4 py-3 flex items-center justify-end">
