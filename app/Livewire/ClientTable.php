@@ -25,7 +25,6 @@ class ClientTable extends Component
     #[On('dispatch-client-delete-del')]
     public function render()
     {
-        $clients = Client::all();
         return view('livewire.client-table', [
                 'clients' => Client::where('id', 'like', '%'.$this->form->id.'%')
                     ->where('nom', 'like', '%'.$this->form->nom.'%')

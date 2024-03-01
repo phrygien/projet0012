@@ -11,6 +11,7 @@
                 <livewire:client-create />
                 <livewire:client-table />
                 <livewire:client-delete />
+                <livewire:client-edit />
                 <!-- <x-button @click="$dispatch('notify', { title: 'fail', message: 'data bien inserer' })">Toastify</x-button> -->
             </div>
         </div>

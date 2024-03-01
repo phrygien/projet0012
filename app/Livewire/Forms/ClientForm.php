@@ -42,7 +42,7 @@ class ClientForm extends Form
 
     public function update()
     {
-        $this->client->update();
+        $this->client->update($this->except(['id', 'num_client', 'client']));
     }
 
     function generateRandomString($length = 5) {
