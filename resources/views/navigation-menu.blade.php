@@ -18,10 +18,10 @@
                     <x-nav-link href="{{ route('client.index') }}" :active="request()->routeIs('client.*')">
                         {{ __('Clients') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    <x-nav-link href="{{ route('dashboard') }}">
                         {{ __('Produits') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('dashboard') }}" :active="request()->routeIs('dashboard')">
+                    <x-nav-link href="{{ route('dashboard') }}" >
                         {{ __('Audites Ventes') }}
                     </x-nav-link>
                 </div>
